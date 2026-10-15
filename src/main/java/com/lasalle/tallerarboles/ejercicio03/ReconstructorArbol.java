@@ -22,7 +22,6 @@ import java.util.HashMap;
         construirPostordenHelper(preorden, 0, inorden.length() - 1, postorden);
         return postorden.toString();
     }
-
     private void construirPostordenHelper(String preorden, int inInicio, int inFin, StringBuilder postorden) {
         if (inInicio > inFin) {
             return;
